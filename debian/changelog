@@ -1,0 +1,138 @@
+ros-humble-talos-moveit-config (2.0.1-1jammy) jammy; urgency=high
+
+  * Group parameters in a variable
+  * Set robot_description_timeout to 60 seconds
+  * Contributors: Noel Jimenez
+
+ -- Luca Marchionni <luca.marchionni@pal-robotics.com>  Wed, 05 Feb 2025 00:00:00 -0000
+
+ros-humble-talos-moveit-config (2.0.0-1jammy) jammy; urgency=high
+
+  * Merge branch 'ros2-migration' into 'humble-devel'
+    ROS 2 Migration
+    See merge request control/talos_moveit_config!8
+  * Remove moveit_fake_controller_manager dependency
+  * add moveit-ros-perception depend
+  * re-structure of the move_group launch files
+  * fix ros_controllers yaml file
+  * fix config files
+  * clean libraries moveit_rviz
+  * launch files
+  * licence and contributing
+  * config files
+  * migration of CMakeLists.txt and package.xml to ros2
+  * Contributors: Adrià Roig, Sai Kishor Kothakota, ileniaperrella
+
+ -- Luca Marchionni <luca.marchionni@pal-robotics.com>  Wed, 18 Sep 2024 00:00:00 -0000
+
+ros-humble-talos-moveit-config (0.3.5-1jammy) jammy; urgency=high
+
+  * Merge branch 'add_flexibility' into 'dubnium-devel'
+    Update related to hip flexibility in simulation
+    See merge request control/talos_moveit_config!6
+  * Add robot_description argument to move_group launch file, and remap the /robot_description topic to this value
+  * Add flexibility joints as passive in the srdf
+  * Contributors: Pierre Fernbach, saikishor
+
+ -- Luca Marchionni <luca.marchionni@pal-robotics.com>  Wed, 02 Mar 2022 00:00:00 -0000
+
+ros-humble-talos-moveit-config (0.3.4-1jammy) jammy; urgency=high
+
+  * Merge branch 'uedin_markers' into 'dubnium-devel'
+    Disable collisions from the VICON markers to the adjacent links
+    See merge request control/talos_moveit_config!5
+  * Disable collisions from the VICON markers to the adjacent links
+  * Disable collision pair between d435 and head_2_link
+  * Contributors: Adria Roig, Pierre Fernbach
+
+ -- Luca Marchionni <luca.marchionni@pal-robotics.com>  Wed, 17 Nov 2021 00:00:00 -0000
+
+ros-humble-talos-moveit-config (0.3.3-1jammy) jammy; urgency=high
+
+  * Merge branch 'fix-right-leg-collision' into 'dubnium-devel'
+    Fix collision between arm_right_7 and leg_right_3
+    See merge request control/talos_moveit_config!4
+  * Fix collision between arm_right_7 and leg_right_3
+  * Contributors: Victor Lopez, victor
+
+ -- Luca Marchionni <luca.marchionni@pal-robotics.com>  Thu, 02 Jul 2020 00:00:00 -0000
+
+ros-humble-talos-moveit-config (0.3.2-1jammy) jammy; urgency=high
+
+  * Merge branch 'moveit_fix' into 'dubnium-devel'
+    fix moveit cartesian goals issue on robot
+    See merge request control/talos_moveit_config!3
+  * fix moveit cartesian goals issue on robot
+  * Contributors: Sai Kishor Kothakota
+
+ -- Luca Marchionni <luca.marchionni@pal-robotics.com>  Fri, 17 Jan 2020 00:00:00 -0000
+
+ros-humble-talos-moveit-config (0.3.1-1jammy) jammy; urgency=high
+
+  * Launch with moveit.rviz config by default
+  * Merge branch 'add_move_group_both_legs' into 'dubnium-devel'
+    regenerated talos moveit config
+    See merge request control/talos_moveit_config!2
+  * regenerated talos moveit config
+  * Contributors: Jordan Palacios, Luca Marchionni
+
+ -- Luca Marchionni <luca.marchionni@pal-robotics.com>  Thu, 28 Nov 2019 00:00:00 -0000
+
+ros-humble-talos-moveit-config (0.2.6-1jammy) jammy; urgency=high
+
+  * Merge branch 'update-config' into 'dubnium-devel'
+    regenerate talos srdf
+    See merge request control/talos_moveit_config!1
+  * regenerate talos srdf
+  * Contributors: Hilario Tome, Victor Lopez
+
+ -- Luca Marchionni <luca.marchionni@pal-robotics.com>  Fri, 13 Apr 2018 00:00:00 -0000
+
+ros-humble-talos-moveit-config (0.2.5-1jammy) jammy; urgency=high
+
+  * added uploading of collision blacklist
+  * Contributors: Hilario Tomé
+
+ -- Luca Marchionni <luca.marchionni@pal-robotics.com>  Mon, 05 Feb 2018 00:00:00 -0000
+
+ros-humble-talos-moveit-config (0.2.4-1jammy) jammy; urgency=high
+
+  * added talos simple moveit controller manager
+  * Contributors: Hilario Tomé
+
+ -- Luca Marchionni <luca.marchionni@pal-robotics.com>  Fri, 18 Aug 2017 00:00:00 -0000
+
+ros-humble-talos-moveit-config (0.2.3-1jammy) jammy; urgency=high
+
+  * Fix circular depenendency
+  * Merge branch 'dubnium-devel' of gitlab:control/talos_moveit_config into dubnium-devel
+  * Config tested on robot
+  * Contributors: Luca, Victor Lopez
+
+ -- Luca Marchionni <luca.marchionni@pal-robotics.com>  Fri, 11 Nov 2016 00:00:00 -0000
+
+ros-humble-talos-moveit-config (0.2.2-1jammy) jammy; urgency=high
+
+  * 0.2.1
+  * Updated changelog
+  * Update moveit_config for Talos
+  * Created single torso group
+  * Added controller manageer controllers for torso and grippers
+  * Added more groups and controller manager configuration
+  * Contributors: Hilario Tome, Luca
+  * Update moveit_config for Talos
+  * Created single torso group
+  * Added controller manageer controllers for torso and grippers
+  * Added more groups and controller manager configuration
+  * Contributors: Hilario Tome, Luca
+
+ -- Luca Marchionni <luca.marchionni@pal-robotics.com>  Wed, 09 Nov 2016 00:00:00 -0000
+
+ros-humble-talos-moveit-config (0.2.1-1jammy) jammy; urgency=high
+
+  * Iniitial commit
+  * Contributors: Hilario Tome
+
+ -- Luca Marchionni <luca.marchionni@pal-robotics.com>  Mon, 31 Oct 2016 00:00:00 -0000
+
+
