@@ -2,6 +2,19 @@
 Changelog for package talos_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.4 (2025-12-05)
+------------------
+* Add move_group module
+* Contributors: Noel Jimenez
+
+2.0.3 (2025-11-25)
+------------------
+* Merge branch 'wbid' into 'humble-devel'
+  Disable collision pair for the fingers
+  See merge request control/talos_moveit_config!14
+* Disable collision pair for the fingers
+* Contributors: Pierre Fernbach, Sai Kishor Kothakota
+
 2.0.2 (2025-05-22)
 ------------------
 * Merge branch 'sim_time' into 'humble-devel'
